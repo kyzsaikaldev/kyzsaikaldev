@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background: linear-gradient(135.0deg, rgb(0, 90, 129) 0.331%,rgb(0, 52, 74));
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -16,4 +20,102 @@ a {
 button {
     border: none;
 
+}
+
+#header {
+    padding: 25px 0;
+}
+
+
+.header-block a {
+    width: 71px;
+    height: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Aclonica' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 70px;
+}
+
+.header-btn {
+    width: 143px;
+    height: 42px;
+    border-radius: 5px;
+    background: rgb(0, 178, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Aclonica' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons a {
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 12px;
+    font-family: 'Aclonica' , sans-serif;
+
+}
+
+.hero img {
+    height: 80vh;
+}
+
+.hero-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Aclonica' , sans-serif;
+
+}
+
+.hero-text p {
+    font-family: 'Aclonica' , sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-text button {
+    border-radius: 5px;
+    color: white;
+    background: rgb(0, 178, 255);
+    margin: 39px;
+    padding: 15px 46px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    padding-top: 66px;
+}
+
+.block-one {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.block-two {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: rgb(0, 178, 255);
+    margin: 0 28px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
